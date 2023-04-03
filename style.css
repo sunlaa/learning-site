@@ -2,6 +2,12 @@ body {
     font-family: 'Gill Sans', sans-serif;
     margin: 0;
     overflow-x: hidden;
+    width: 100%;
+}
+
+.letter-head {
+    margin-bottom: 0;
+
 }
 
 ul {
@@ -70,12 +76,69 @@ ul.up li {
     }
 }
 
-
-.intro-head {
+h2 {
     font-size: 2rem;
-    margin: 0;
 }
 
 p {
     margin: 0;
+}
+
+.second-page {
+    display: flex;
+    justify-content: space-between;
+    background-color: ghostwhite;
+}
+
+.cyp-and-cyp {
+    width: 200%;
+    height: auto;
+    align-self: center;
+}
+
+.text-camomile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.camomile {
+    align-self: flex-end;
+}
+
+.second-text {
+    margin-right: 15rem;
+    margin-left: 2rem;
+    padding: 2rem;
+    background-color: lightskyblue;
+    border-radius: 30px;
+    font-size: 1.1rem;
+}
+
+
+
+@media (max-width: 768px) {
+    .second-page {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second-text {
+        align-self: center;
+        margin: 10px;
+        order: 1;
+    }
+
+    .cyp-and-cyp {
+        order: 3;
+        max-width: 100%;
+        align-self: center;
+    }
+
+    .camomile {
+        order: 2;
+    }
+
+
 }
