@@ -1,0 +1,63 @@
+body {
+    font-family: 'Gill Sans', sans-serif;
+    margin: 0;
+    
+}
+
+.cyp-talk {
+    position: relative;
+    width: content;
+    height: fit-content;
+    padding: 1.4vw;
+    top: 1.5%;
+    left: 85%;
+    background-color: darkorange;
+    border-radius: 50% 40% 50% 5%;
+}
+
+
+
+.intro {
+    display: flex;
+    background-image: url(/images/cyp-on-intro.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    background-color: powderblue;
+}
+
+.intro-text  {
+    position: relative;
+    top: 25%;
+    width: 50%;
+    width: content;
+    height: fit-content;
+    padding-left: 3vh;
+    background-color: rgb(232, 239, 194);
+    border-radius: 20px;
+   
+}
+
+
+.second-intro {
+    margin-top: 0;
+}
+
+.letter-head {
+    font-size: 6vw;
+    margin: auto 0 auto 0;
+}
+
+.first-intro, .second-intro, .cyp-talk {
+    font-size: 1.6vw;
+}
+
+
+
+@media (max-width: 768px) {
+    .intro {
+        background-size: contain;
+        background-position: bottom;
+        height: 100vh;
+    }
+}
