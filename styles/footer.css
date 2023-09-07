@@ -1,0 +1,20 @@
+footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+
+.accept {
+    font-size: 0.8vw;
+}
+
+@media (max-width: 768px) {
+    footer {
+        justify-content: flex-start;
+    }
+
+    .accept {
+        font-size: 3vw;
+    }
+}
