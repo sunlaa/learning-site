@@ -1,0 +1,82 @@
+.second-page {
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+    background-color: rgb(229, 245, 140);
+}
+
+.two-cyp {
+    width: 45vw;
+}
+
+
+.camomile-text {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    width: 50%;
+    height: fit-content;
+    margin-right: 3vw;
+    margin-top: 3vh;
+    text-align: right;
+    border-radius: 20px;
+    background-color: rgb(239, 224, 223);
+
+}
+
+.second-text {
+    margin-right: 2vw;
+    margin-left: 0.7vw;
+}
+
+.camomile {
+    align-self: flex-start;
+    position: absolute;
+    left: -10vw;
+    top: -15vh ;
+}
+
+.first-second {
+    font-size: 1.5vw;
+}
+
+.second-second {
+    font-size: 1.3vw;
+    margin-top: 0;
+}
+
+@media (max-width:  768px) {
+    .second-page {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .two-cyp {
+        width: 100vw;
+    }
+
+    .pic-camomile {
+        width: 40vw;
+    }
+
+    .camomile-text {
+        order: -1;
+        width: 90vw;
+        height: fit-content;
+    }
+
+    .first-second {
+        font-size: 4vw;
+    }
+
+    .second-second {
+        font-size: 2.7vw;
+        margin-top: 0;
+    }
+
+    .camomile {
+        top: -9vh;
+    }
+}

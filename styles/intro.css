@@ -19,11 +19,11 @@ body {
 
 .intro {
     display: flex;
-    background-image: url(/images/cyp-on-intro.png);
+    background-color: powderblue;
+    background-image: url('../images/cyp-on-intro.png');
     background-repeat: no-repeat;
     background-position: right;
     height: 100vh;
-    background-color: powderblue;
 }
 
 .intro-text  {
@@ -60,4 +60,30 @@ body {
         background-position: bottom;
         height: 100vh;
     }
+
+    .intro-text {
+        right: 9%;
+        top: 2%;
+        width: max-content;
+    }
+
+    .cyp-talk {
+        width: 30%;
+        top: 25%;
+        left: 45%;
+    }
+
+
+    .first-intro, .second-intro {
+        font-size: 4vw;
+    }
+
+    .letter-head {
+        font-size: 8vw;
+    }
+    
+    .cyp-text {
+        font-size: 6vw;;
+    }
+    
 }
